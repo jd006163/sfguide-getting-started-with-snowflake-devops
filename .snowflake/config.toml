@@ -3,12 +3,6 @@ warehouse = "COMPUTE_WH"
 role = "ACCOUNTADMIN"
 database = "QUICKSTART_COMMON"
 schema = "PUBLIC"
-<<<<<<< HEAD
 account = "MCEDKTD-GF62682"
 user = "JDIXSON27"
 password = "KorbinMyles02!"
-=======
-account = "MCEDKTD.GF62682"
-user = "jdixson27"
-password = "KorbinMyles230952911!"
->>>>>>> 0434d3ae02dff0f0d04ce04c53a66b082bcc16cd
