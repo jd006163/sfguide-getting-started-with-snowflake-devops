@@ -30,7 +30,6 @@ create or alter table jdixson_testTable (
   , precipitation_probability_pct float
   , aquarium_cnt int
   , zoo_cnt int
-  , korean_restaurant_cnt int
   -- STEP 5: INSERT CHANGES HERE
 ) data_retention_time_in_days = {{retention_time}};;
 
