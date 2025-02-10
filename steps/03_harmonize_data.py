@@ -75,7 +75,7 @@ pipeline = [
         group by departure_airport, arrival_airport
         """,
     ),
-    view(
+    View(
         name="vjdixson_test",
         columns=[
             ViewColumn(name='city')
