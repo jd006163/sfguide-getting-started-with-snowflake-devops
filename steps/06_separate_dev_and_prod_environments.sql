@@ -1,4 +1,4 @@
-/*
+
 ----------------------------------------------------------------------------------
 Perform the following changes to parametrize the deployment target of the pipeline
 ----------------------------------------------------------------------------------
@@ -17,4 +17,3 @@ use schema quickstart_{{environment}}.gold;
 
 -- Parametrize DATA_RETENTION_TIME_IN_DAYS of CREATE OR ALTER TABLE in steps/04_orchestrate_jobs.sql
 data_retention_time_in_days = {{retention_time}};
-*/
