@@ -75,14 +75,7 @@ pipeline = [
         group by departure_airport, arrival_airport
         """,
     ),
-    View(
-        name="vjdixson_test",
-        columns=[
-            ViewColumn(name='city')
-        ],
-        query="""
-        select city from jdixson_testTable""",
-    ),
+    
     # To avoid unreliable flight connections, we compute the fraction of flights that arrive
     # early or on time from the flight status data provided by OAG.
     View(
